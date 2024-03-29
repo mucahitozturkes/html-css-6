@@ -1,0 +1,80 @@
+:root {
+    --primary-soft-blue: hsl(215, 51%, 70%);
+    --primary-cyan: hsl(178, 100%, 50%);
+
+    --netural-VDB-main: hsl(217, 54%, 11%);
+    --netural-VDB-card: hsl(216, 50%, 16%);
+    --netural-VDB-line: hsl(215, 32%, 27%);
+    --netural-white: hsl(0, 0%, 100%);
+}
+
+body {
+    height: 100vh;
+    place-content: center;
+    background-color: var(--netural-VDB-main);
+    font-family: Outfit;
+}
+
+.main {
+    max-width: 470px;
+    margin: 1rem auto;
+    background-color: var(--netural-VDB-card);
+    border-radius: 16px;
+    place-content: center;
+}
+
+.wrapper {
+    max-width: 85%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.wrapper img {
+    width: 100%;
+    border-radius: 16px;
+   
+}
+
+.stack-view {
+    display: flex;
+    color: var(--netural-white);
+    place-content: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+.stack-view img {
+    width: 20px;
+    margin-right: 12px;
+}
+
+h4 {
+    display: flex;
+    color: var(--primary-cyan);
+    font-weight: 500;
+}
+
+h5 {
+    display: flex;
+    place-items: center;
+    font-weight: 400;
+    color: var(--primary-soft-blue);
+}
+
+hr {
+    border: 1px solid var(--netural-VDB-line);
+    margin-block: -10px;
+}
+
+.stack-view-profile {
+    display: flex;
+    place-items: center;
+}
+
+.stack-view-profile img {
+    width: 3rem;
+  
+    margin-right: 18px;
+    border: 1px solid white;
+    border-radius: 100%;
+}
+

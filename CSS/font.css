@@ -1,0 +1,36 @@
+:root {
+    --primary-soft-blue: hsl(215, 51%, 70%);
+    --primary-cyan: hsl(178, 100%, 50%);
+
+    --netural-VDB-main: hsl(217, 54%, 11%);
+    --netural-VDB-card: hsl(216, 50%, 16%);
+    --netural-VDB-line: hsl(215, 32%, 27%);
+    --netural-white: hsl(0, 0%, 100%);
+}
+
+h2 {
+    font-size: 1.55rem;
+    color: var(--netural-white);
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 1.2rem;
+    color: var(--primary-soft-blue);
+    font-weight: 300;
+    opacity: 0.6;
+    line-height: 2rem;
+}
+
+h6 {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.first {
+    color: var(--primary-soft-blue);
+}
+
+.last {
+    color: var(--netural-white);
+}
